@@ -508,7 +508,7 @@
 
 			.wrapper.style2 h3 {
 				display: block;
-				margin-bottom: 1em;
+				margin-bottom: 5px;
 				letter-spacing: 1px;
 				line-height: 1.4em;
 				text-transform: uppercase;
@@ -517,15 +517,15 @@
 			}
 
 		.wrapper.style3 {
-			padding-bottom: 6em;
+			padding-bottom: 3em;
 			background: #82b440;
 			text-align: center;
 			color: white;
 		}
 
 			.wrapper.style3 .container {
-				padding-left: 6em;
-				padding-right: 6em;
+				padding-left: 1em;
+				padding-right: 1em;
 			}
 
 			.wrapper.style3 p {
@@ -833,3 +833,16 @@ h3.headline__section2 {
     padding-left: 1.25em;
     padding-right: 1.5em;
 }
+
+.style2 .major h2.title {
+    text-align: center;
+    font-size: 2.6em;
+    font-weight: 700;
+    margin-bottom: 0;
+}
+.style3 .container p.kyle-profile {
+    font-size: 1.3em;
+    line-height: 1.5em;
+    padding-top: 15px;
+}
+
