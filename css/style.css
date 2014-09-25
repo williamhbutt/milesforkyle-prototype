@@ -106,14 +106,15 @@
 	}
 
 	header.major {
-		padding-bottom: 3em;
+		padding-bottom: 1em;
 		text-align: center;
-		text-transform: uppercase;
+		/*text-transform: uppercase;*/
 	}
 
 		header.major h2 {
 			font-size: 2.6em;
 			font-weight: 700;
+            text-transform: uppercase;
 		}
 
 		header.major .byline {
@@ -820,4 +821,15 @@
 
 iframe {
     width: 90%;
+    margin-top: 8px;
+}
+
+h3.headline__section2 {
+    padding-top: 20px;
+}
+
+.race-features-list {
+    list-style: initial;
+    padding-left: 1.25em;
+    padding-right: 1.5em;
 }
