@@ -683,6 +683,7 @@
 		#banner h2 {
 			display: inline-block;
 			padding: 0.50em 0.30em;
+            padding-top: 0.1em;
 			background: #82b440;
 			font-size: 3em;
 			font-weight: 400;
@@ -846,3 +847,138 @@ h3.headline__section2 {
     padding-top: 15px;
 }
 
+.tablesorter {
+    width: 90%;
+    margin: 0 auto;
+    min-width: 700px;
+    overflow: scroll;
+}
+
+.tablesorter td, .tablesorter th {
+    text-align: left;
+}
+
+tr:nth-child(even) {
+    background: #fff;
+}
+.tablesorter tr td:nth-child(1) {
+    padding-left: 10px;
+}
+.tablesorter thead {
+    background: #82b440;
+    color: #fff;
+}
+
+table.tablesorter thead tr .header {
+    background-image: url(../images/bg.gif);
+    background-repeat: no-repeat;
+    background-position: center right;
+    cursor: pointer;
+}
+table.tablesorter thead tr .headerSortUp {
+    background-image: url(../images/asc.gif);
+}
+table.tablesorter thead tr .headerSortDown {
+    background-image: url(../images/desc.gif)
+}
+table.tablesorter thead tr .headerSortDown, table.tablesorter thead tr .headerSortUp {
+    background-color: rgba(100,150,200,0.75);
+    font-weight: bold;
+}
+
+.table-wrapper {
+    width: 100%;
+    overflow: scroll;
+}
+#banner .year {
+    font-size: 18px;
+    margin: 0;
+    padding: 0;
+}
+
+#gallery .item {
+    height: 300px;
+    width: 98%;
+    margin: 0 auto;
+}
+#gallery .item img {
+    width: 100%;
+}
+#gallery .item.vert img {
+    position: relative;
+    top: -40px;
+}
+#gallery {
+    margin-top: 20px;
+}
+
+.kyle-pic {
+    width: 60%;
+}
+.column {
+    width: 38%;
+    display: inline-block;
+}
+.kyle-profile {
+    text-align: left;
+}
+
+.narrower .kyle-pic {
+    display: block;
+    width: inherit;
+    margin: 0 auto;
+}
+.narrower .column {
+    width: inherit;
+}
+.Results2012 {
+    font-size: 26px;
+}
+
+.facebook {
+    text-align: center;
+    width: 100%;
+
+}
+.footer {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.75)
+}
+
+.facebook-icon {
+    width: 25px;
+    height: 25px;
+    vertical-align: bottom;
+    padding-left: 10px;
+}
+
+#register {
+    text-align: center;
+}
+#register .address {
+    line-height: 14px;
+}
+.style4 .container .major h2.photos-title {
+    font-weight: normal;
+    font-size: 28px;
+}
+.sponsored-by {
+    text-align: center;
+    color: white;
+    line-height: 10px;
+}
+.sponsors {
+    text-align: center;
+}
+
+#results {
+    padding-bottom: 75px;
+}
+.mobile #results {
+    padding-bottom: 100px;
+}
+.narrower #results {
+    padding-bottom: 100px;
+}
